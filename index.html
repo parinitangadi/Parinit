@@ -1,18 +1,66 @@
-
-<html>
-  <title>
-    Home
-  </title>
-  
-  <body>
-    <h1>Welcome to my Website</h1>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>My Site</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script>
+         $(document).ready(function(){ 
+            $(".hamburger-btn .fa-times").hide();
+            
+            $(".hamburger-btn .fa-bars").click(function(){
+            $(this).hide();
+            $(".hamburger-btn .fa-times").show();
+            $(".mob ul").addClass("active");
+            });
+            
+            $(".hamburger-btn .fa-times").click(function(){
+            $(this).hide();
+            $(".hamburger-btn .fa-bars").show();
+            $(".mob ul").removeClass("active");
+            });
+         });
+         
+     </script>
+    </head>
     
-    <style>
-      body {
-        background-color :8CE472;
-        color: 4920EE;
-        text-align:center;
-      }
-  </style>
+    
+    <body>
+        <div class="container">
+            <nav class="desk">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Interests</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="mob">
+                <div class="hamburger-btn">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>                   
+                </div>
+                
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Interests</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>      
+        
+            <div class="header"></div>
+            
+            
+            
+        </div>
+    </body>
+    
+    
 </html>
+
