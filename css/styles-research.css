@@ -115,19 +115,23 @@ body{
     .header{
 	 padding: 0 50px;
 	 position:relative;
-	 height: 150px;
+	 height: 700px;
 	 margin-top:60px;
 	 text-align:justify;
 	 font-weight: bold;
-	 font-size:20px;
+	 font-size:15px;
 	 background-color: skyblue;
 	 z-index: -1;
 	}
-	 nav.title1{
+	 nav.title1,
+	 nav.title2,
+	 nav.title3,
+	 nav.title4{
 	 color:darkblue;
 	 background-color: lightgrey;
 	 width: 100%;
 	 padding-top:5px;
+	 padding-bottom:5px;
     }
 	 
 	 
