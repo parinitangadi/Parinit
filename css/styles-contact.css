@@ -66,52 +66,6 @@ body{
      .hamburger-btn{
          display: none;
      }
-    .header{
-      overflow: hidden;
-      height: 500px;
-      
-     }
-    .header figure {
-      position:relative;
-      width: 500%;
-      margin-top: 60px;
-      left: 0;
-      z-index: -1 ; 
-      animation: 20s header infinite;
-   }
-   .header figure img {
-       width: 20%;
-       float: left;
-   }
-   @keyframes header{
-       0%{
-           left:0;
-       }  
-       20%{
-           left:0;
-       }
-       25%{
-           left:-100%;
-       }
-       45%{
-           left:-100%;
-       }
-       50% {
-           left:-200%;
-       }
-       70% {
-           left:-200%;
-       }
-       75% {
-           left:-300%;
-       }
-       95% {
-           left:-300%;
-       }
-       100%{
-           left:-400%;
-       }
-   }
 @media screen and (max-width: 952px){
     label.logo{
         font-size:30px;
@@ -155,63 +109,66 @@ body{
          display: block;
      }
      }  
-#section-2,
-#section-3{
-    overflow: hidden; 
-    text-align: center;  
-         }
-#section-2 h1,
-#section-3 h1{
-    background-color: skyblue;
-    height: 30px;
-    text-align:center;
-    color: darkblue;
-    padding: 1px;
-}
-     
-.row #column1,  
-.row #column2, 
-.row #column3{ 
-        float: left; 
-        width: 32.67%; 
-        padding: 10px 5px 10px 5px;
-        } 
-        .row #column1{
-            background-color: green;
-        }
-        .row #column3{
-            background-color: cyan;
-        }
 
-.column-title h2{ 
-    margin: 1em 0em; 
-    font-size: 1.6em; 
-    font-weight: 700; 
-} 
-
-
-.button { 
-    text-decoration: none; 
-    text-align: center; 
-    display: inline-block; 
-    font-size: 16px; 
-    background-color: #4CAF50;  
-    color: white;  
-    border: 2px solid #4CAF50; 
-    padding: 16px 32px; 
-    margin: 4px 2px; 
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s; 
-    cursor: pointer; 
-} 
-      
-.button:hover { 
-    background-color: white; 
-    color: #4CAF50; 
-} 
-
-
-     .footer {
+    .header{
+	 padding: 0 50px;
+	 position:relative;
+	 height: 150px;
+	 margin-top:60px;
+	 text-align:justify;
+	 font-weight: bold;
+	 font-size:20px;
+	 background-color: skyblue;
+	 z-index: -1;
+	}
+	 nav.title1{
+	 color:darkblue;
+	 background-color: lightgrey;
+	 width: 100%;
+	 padding-top:5px;
+    }
+		
+	 nav.content1{
+	 text-decoration: underline;
+	 padding-top:5px;
+     color:green;
+	 width: 100%;
+    }
+	
+	.header1{
+	 padding: 0 50px;
+	 height:160px;
+	 position:relative;
+	 text-align:justify;
+	 font-weight: bold;
+	 font-size:20px;
+	 background-color: skyblue;
+	 z-index: -1;
+	}
+	nav.title2{
+	text-decoration: underline;
+     padding-top:5px;
+	 color:green;
+	 width: 100%;
+    }
+	.header2{
+	 padding: 0 50px;
+	 height:199px;
+	 position:relative;
+	 text-align:justify;
+	 font-weight: bold;
+	 font-size:20px;
+	 background-color: skyblue;
+	 z-index: -1;
+	}
+	nav.email12{
+	text-decoration: underline;
+     padding-top:5px;
+	 color:green;
+	 width: 100%;
+    }
+	
+	     .footer {
          position: relative;
          background: #222222;
          padding: 50px;
@@ -253,3 +210,5 @@ body{
             color: #adadad;
         }
               
+	
+	
