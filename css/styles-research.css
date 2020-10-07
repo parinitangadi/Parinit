@@ -123,10 +123,10 @@ body{
 	 background-color: skyblue;
 	 z-index: -1;
 	}
-	 nav.title1,
-	 nav.title2,
-	 nav.title3,
-	 nav.title4{
+	 .header h1,
+	 .header h2,
+	 .header h3,
+	 .header h4{
 	 color:darkblue;
 	 background-color: lightgrey;
 	 width: 100%;
