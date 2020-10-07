@@ -111,6 +111,7 @@ body{
      }  
 
     .header{
+	 user-select:text;
 	 padding: 0 50px;
 	 position:relative;
 	 height: 150px;
@@ -122,6 +123,7 @@ body{
 	 z-index: -1;
 	}
 	 nav.title1{
+	user-select:text;
 	 color:darkblue;
 	 background-color: lightgrey;
 	 width: 100%;
@@ -129,6 +131,7 @@ body{
     }
 		
 	 nav.content1{
+	user-select:text;
 	 text-decoration: underline;
 	 padding-top:5px;
      color:green;
@@ -136,6 +139,7 @@ body{
     }
 	
 	.header1{
+	user-select:text;
 	 padding: 0 50px;
 	 height:160px;
 	 position:relative;
@@ -146,12 +150,14 @@ body{
 	 z-index: -1;
 	}
 	nav.title2{
+	user-select:text;
 	text-decoration: underline;
      padding-top:5px;
 	 color:green;
 	 width: 100%;
     }
 	.header2{
+	user-select:text;
 	 padding: 0 50px;
 	 height:199px;
 	 position:relative;
@@ -162,6 +168,7 @@ body{
 	 z-index: -1;
 	}
 	nav.email12{
+	user-select:text;
 	text-decoration: underline;
      padding-top:5px;
 	 color:green;
